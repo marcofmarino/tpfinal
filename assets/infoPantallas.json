@@ -1,0 +1,312 @@
+[
+   {
+      "textos": [],
+      "botones": [
+         {
+            "tipo": "rectangular",
+            "etiqueta": "Iniciar",
+            "posicion": [300, 400],
+            "tamanio": [100, 20]
+         },
+         {
+            "tipo": "rectangular",
+            "etiqueta": "Créditos",
+            "posicion": [300, 440],
+            "tamanio": [100, 20]
+         }
+      ]
+   },
+   {
+      "textos": [
+         {
+            "contenido": "Sos el hijo de Fiódor Pávlovich Karamázov. Tu madre, ya fallecida, procedía de una \nfamilia rica. Fuiste criado desde chico por distintos grupos familiares, \nya que tu padre, un borracho, nunca se ocupó de tu crianza.",
+            "posicion": [20, 20]
+         }
+      ],
+      "botones": [
+         {
+            "tipo": "rectangular",
+            "etiqueta": "Siguiente",
+            "posicion": [530, 560],
+            "tamanio": [100, 22]
+         }
+      ]
+   },
+   {
+      "textos": [
+         {
+            "contenido": "Aunque hijos de otra madre, tienes dos hermanos, Iván y Alexéi. Convocaron una \nreunión entre hermanos y padre para solucionar los conflictos que tienes con este último, \ncausados por reclamarle la herencia de tu madre; así como por el amor de una misma \nmujer, Grúshenka.",
+            "posicion": [20, 20]
+         }
+      ],
+      "botones": [
+         { 
+            "tipo": "rectangular",
+            "etiqueta": "Siguiente",
+            "posicion": [530, 560],
+            "tamanio": [100, 22]
+         }
+      ]
+   },
+   {
+      "textos": [
+         {
+            "contenido": "Durante la reunión las cosas van mal. No soportas la actitud de tu padre y lo acusas de \nactuar como bufón. En uno de sus intentos por quedar como víctima, Fiódor Pávlovich \namenaza con retarte a un duelo. Tu padre se retractó, puedes decidir ignorarlo y dar por \nfinalizada la reunión o retarlo a un duelo.",
+            "posicion": [20, 20]
+         }
+      ],
+      "botones": [
+         {
+            "tipo": "circular",
+            "etiqueta": "Ignorar",
+            "posicion": [70, 560],
+            "tamanio": 60
+         },
+         {
+            "tipo": "circular",
+            "etiqueta": "Desafiar",
+            "posicion": [530, 560],
+            "tamanio": 60
+         }
+      ]
+   },
+   {
+      "textos": [
+         {
+            "contenido": "La reunión es un fracaso. Vuelves con mayor resentimiento por tu padre, sentimiento \nincrementado por tu mala situación financiera y por el hecho que haberle robado tres mil \nrublos a Katerina, tu prometida. Todavía conservas la mitad de lo robado, ya que la otra \nmitad la gastaste en irte de fiesta con Grúshenka. Te enteras que tu padre tiene tres mil \nrublos guardados. Decides asesinarlo y robarlos, pero al llegar a su casa te entra la duda, \n¿decides continuar y cometer el parricidio o abandonar el lugar?",
+            "posicion": [20, 20]
+         }
+      ],
+      "botones": [
+         {  
+            "tipo": "circular",
+            "etiqueta": "Matarlo",
+            "posicion": [70, 560],
+            "tamanio": 60
+         },
+         {
+            "tipo": "circular",
+            "etiqueta": "Irse",
+            "posicion": [530, 560],
+            "tamanio": 60
+         }
+      ]
+   },
+   {
+      "textos": [
+         {
+            "contenido": "Decidiste no asesinarlo, pero fuiste visto por tu padre, quién te gritó 'parricida'. Ya lejos \nde la casa te enteras que Grúshenka se fue con un polaco, antiguo prometido suyo y te \ninvaden los celos. Debes decidir si gastar los mil quinientos rublos en otra fiesta, para \nintentar recuperar a Grúshenka o ignorar tus celos y no hacer nada.",
+            "posicion": [20, 20]
+         }
+      ],
+      "botones": [
+         {
+            "tipo": "circular",
+            "etiqueta": "Gastarlo",
+            "posicion": [70, 560],
+            "tamanio": 60
+         },
+         {
+            "tipo": "circular",
+            "etiqueta": "Ignorar",
+            "posicion": [530, 560],
+            "tamanio": 60
+         }
+      ]
+   },
+   {
+      "textos": [
+         {
+            "contenido": "Gastas el dinero en bebidas y comida. Grúshenka abandona al polaco y declara que \nquiere estar con vos, cuando entra la policía y te arresta por el asesinato de tu padre. Eres \nllevado a juicio, en el que a pesar de los intentos del abogado, contratado Katerina, por \nprobar tu inocencia, el dinero gastado en la fiesta, presúntamente el robado a tu padre, y \nuna carta escrita a Katerina, son usados para declararte injustamente culpable.",
+            "posicion": [20, 20]
+         }
+      ],
+      "botones": [
+         {
+            "tipo": "rectangular",
+            "etiqueta": "Inicio",
+            "posicion": [530, 560],
+            "tamanio": [100, 22]
+         }
+      ]
+   },
+   {
+      "textos": [
+         {
+            "contenido": "Tus hermanos intentan disuadirte de tu idea y evitar el duelo con tu padre ¿les haces caso \ny te vas de la reunión o vas a continuar con el duelo?",
+            "posicion": [20, 20]
+         }
+      ],
+      "botones": [
+         {
+            "tipo": "circular",
+            "etiqueta": "Irte",
+            "posicion": [70, 560],
+            "tamanio": 60
+         },
+         {
+            "tipo": "circular",
+            "etiqueta": "Continuar",
+            "posicion": [530, 560],
+            "tamanio": 60
+         }
+      ]
+   },
+   {
+      "textos": [
+         {
+            "contenido": "Llega el día del duelo, te encuentras frente a tu padre que dispara primero. El disparo \nimpacta en tu cuerpo, dejándote sin herencia, Grúshenka y vida.",
+            "posicion": [20, 20]
+         }
+      ],
+      "botones": [
+         {
+            "tipo": "rectangular",
+            "etiqueta": "Inicio",
+            "posicion": [530, 560],
+            "tamanio": [100, 22]
+         }
+      ]
+   },
+   {
+      "textos": [
+         {
+            "contenido": "Despejas la duda de tu mente y agarras a tu padre por sorpresa y lo asesinas. Tomas el \ndinero, mientras te retiras eres visto por Grigori, el sirviente de tu padre, a quién golpeas \ndejándolo incosciente. Ahora debes decidir qué hacer con el dinero, si utilizarlo para irte \ncon Grúshenka o devolverle lo robado a Katerina.",
+            "posicion": [20, 20]
+         }
+      ],
+      "botones": [
+         {
+            "tipo": "circular",
+            "etiqueta": "Grúshenka",
+            "posicion": [70, 560],
+            "tamanio": 60
+         },
+         {
+            "tipo": "circular",
+            "etiqueta": "Katerina",
+            "posicion": [530, 560],
+            "tamanio": 60
+         }
+      ]
+   },   
+   {
+      "textos": [
+         {
+            "contenido": "Le devulves el dinero a Katerina, sacándote un peso de encima. Pero eres arrestado por el \nasesinato de Fiódor Pávlovich Karamázov.",
+            "posicion": [20, 20]
+         }
+      ],
+      "botones": [
+         {
+            "tipo": "rectangular",
+            "etiqueta": "Inicio",
+            "posicion": [530, 560],
+            "tamanio": [100, 22]
+         }
+      ]
+   },
+   {
+      "textos": [
+         {
+            "contenido": "Utilizas el dinero para huir con Grúshenka, que decide acompañarte. Nunca más tus \nhermanos ni conocidos supieron algo de tu paradero o destino.",
+            "posicion": [20, 20]
+         }
+      ],
+      "botones": [
+         {
+            "tipo": "rectangular",
+            "etiqueta": "Inicio",
+            "posicion": [530, 560],
+            "tamanio": [100, 22]
+         }
+      ]
+   },
+   {
+      "textos": [
+         {
+            "contenido": "Decides no gastarlo y en cambio hablas con Katerina, confesando tu robo. Aparece la \npolicía y te arresta por el asesinato de tu padre. El abogado contratado por Katerina logra \nprobar tu inocencia. Terminado el proceso te apartas de Grúshenka y continúas con \nKaterina.",
+            "posicion": [20, 20]
+         }
+      ],
+      "botones": [
+         {
+            "tipo": "rectangular",
+            "etiqueta": "Inicio",
+            "posicion": [530, 560],
+            "tamanio": [100, 22]
+         }
+      ]
+   },
+   {
+      "textos": [
+         {
+            "contenido": "Ambos fallan su disparo, se decide dar por finalizado el duelo en lugar de realizar otra \nronda. Vuelves con mayor resentimiento por tu padre, incrementado por tu mala situación financiera y por el hecho que haberle robado tres mil \nrublos a Katerina, tu prometida. Todavía conservas la mitad de lo robado, ya que la otra \nmitad la gastaste en irte de fiesta con Grúshenka. Te enteras que tu padre tiene tres mil \nrublos guardados. Decides asesinarlo y robarlos, pero al llegar a su casa te entra la duda, \n¿decides continuar y cometer el parricidio o abandonar el lugar?",
+            "posicion": [20, 20]
+         }
+      ],
+      "botones": [
+         {
+            "tipo": "circular",
+            "etiqueta": "Matarlo",
+            "posicion": [70, 560],
+            "tamanio": 60
+         },
+         {
+            "tipo": "circular",
+            "etiqueta": "Irse",
+            "posicion": [530, 560],
+            "tamanio": 60
+         }
+      ]
+   },
+   {
+      "textos": [
+         {
+            "contenido": "Derrotas a tu padre y te quedas con su dinero, y lo usas para abandonar el pueblo junto \ncon Grúshenka. Nunca más tus hermanos ni conocidos supieron algo de tu paradero o \ndestino.",
+            "posicion": [20, 20]
+         }
+      ],
+      "botones": [
+         {
+            "tipo": "rectangular",
+            "etiqueta": "Inicio",
+            "posicion": [530, 560],
+            "tamanio": [100, 22]
+         }
+      ]
+   },
+   {
+      "textos": [
+         {
+            "contenido": "Créditos",
+            "posicion": [300, 100]
+         },
+         {
+            "contenido": "Autor de la obra original: Fiódor M. Dostoievski",
+            "posicion": [300, 200]
+         },
+         {
+            "contenido": "Marco Marino",
+            "posicion": [300, 300]
+         },
+         {
+            "contenido": "Comisión 3",
+            "posicion": [300, 350]
+         },
+         {
+            "contenido": "Tecnología Multimedial 1",
+            "posicion": [300, 400]
+         }
+      ],
+      "botones": [
+         {
+            "tipo": "rectangular",
+            "etiqueta": "Menú",
+            "posicion": [300, 560],
+            "tamanio": [100, 22]
+         }
+      ]
+   }
+]
+
