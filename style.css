@@ -1,43 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Jomolhari&display=swap');
-body, h1, ul, li {
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body, nav, ul, li {
    padding: 0;
    margin: 0;
-   font-family: 'Josefin Sans', 'sans-serif';
+   font-family: 'Open Sans', sans-serif;
    font-weight: 400;
+   color: #f2f2f2;
 }
 
 body {
-   background-color: #0e0e0e;
+   background-color: #222222;
 }
 
-h1 {
-   color: #f2f2f2;
-   font-family: 'Jomolhari';
+h1, h2, h3, h4 {
+   font-family: 'Jomolhari', serif;
 }
 
-h2 {
-   text-align: center;
-}
-
-.aventura {
-   display: flex;
-   justify-content: center;
-   overflow-x: scroll;
-}
-
-a {
-   color: #f2f2f2;
+h3 {
+   border-bottom: 1px solid #f2f2f2;
+   padding-bottom: 2px;
 }
 
 div {
-   max-width: 95%;
-   color: #f2f2f2;
    margin: 0 auto;
 }
 
+p {
+   padding: 12px 0 12px 0;
+}
 
 header {
-   color: #f2f2f2;
    height: 100px;
    text-align: center;
    font-weight: 700;
@@ -45,13 +37,7 @@ header {
    margin-bottom: 12px;
 }
 
-header h2 {
-   color: #f2f2f2;
-   font-weight: 200;
-}
-
 article {
-   width: 1024px;
    max-width: 95%;
    margin: 0 auto;
    padding: 5px;
@@ -60,34 +46,14 @@ article {
 }
 
 footer {
-   background-color: #222222;
-   color: #f2f2f2;
+   background-color: #2e2e2e;
    padding: 50px;
    margin-top: 70px;
 }
 
-nav {
-   position: sticky;
-   top: 0;
-   width: 100%;
-   z-index: 100;
-}
-
-nav ul {
-   text-align: center;
-   margin: 0 auto;
-   list-style: none;
-   display: flex;
-   justify-content: space-between;
-}
-
-nav li {
-   float: center;
-   width: 100%;
-}
-
 nav a {
    text-decoration: none;
+   font-family: 'Jomolhari', serif;
    color: #f2f2f2;
    padding: 15px;
    display: block;
@@ -95,53 +61,17 @@ nav a {
    background-color: #222222;
 }
 
-figure {
-   text-align: center;
-}
-
-figure, figcaption {
-   padding: 24px auto;
-}
-
 nav a:hover {
-   color: #f2f2f2;
-   background-color: #1e292f;
-   border-bottom: 2px solid #f2f2f2;
-}
-
-img {
-   border-radius: 16px;
-   width: 100%;
-   margin: 8px;
+   background-color: #2e2e2e;
+   border-bottom: 2px solid #8f1919;
 }
 
 h3 {
    padding-top: 80px;
 }
 
-table {
-   margin: 16px auto; 
-   padding: 8px;
-   border: 1px solid #f2f2f2;
-   border-radius: 16px;
-}
-
-ul {
-   padding: 5px 20px;
-}
-
-ul ul {
-   padding: 5px 20px;
-   margin: 5px 10px;
-}
-
-.tabla-imagenes {
-   border: none;
-   width: 100%;
-}
-
-.adaptado {
-   width: 50%;
+html {
+   scroll-behavior: smooth;
 }
 
 .centrado {
@@ -150,32 +80,72 @@ ul ul {
    margin-right: auto;
 }
 
-html {
-   scroll-behavior: smooth;
+.aventura {
+   border: 1px solid #f2f2f2;
+   width: max-content;
 }
 
-.celda {
-   display: flex;
-   gap: 10px;
-   margin: 0;
+.aviso {
+   visibility: hidden;
 }
 
-.columna {
-   border-right: 1px solid #000;
+figure {
+   text-align: center;
+}
+
+figure, figcaption {
+   padding: 24px auto;
+   color: #8a8a8a;
+}
+
+img {
+   border-radius: 6px;
+}
+
+.adaptado {
+   width: 30%;
+}
+
+.video-responsive {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px;
+height: 0;
+overflow: hidden;
+}
+
+
+.video-responsive iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
 }
 
 @media (max-width: 600px) {
-   .celda {
-      display: block;
+   .aviso {
+      visibility: visible;
    }
 
    .aventura {
       width: 0;
+      height: 0;
+      border: 0;
+      visibility: hidden;
+   }
+}
+
+@media (max-height: 600px) {
+   .aviso {
+      visibility: visible;
    }
 
-   nav a {
-      padding: 8px;
-      font-size: 11px;
+   .aventura {
+      width: 0;
+      height: 0;
+      border: 0;
+      visibility: hidden;
    }
 }
 
