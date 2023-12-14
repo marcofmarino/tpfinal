@@ -129,7 +129,8 @@ height: 100%;
    }
 
    .aventura {
-      width: 0;
+      display: none;
+      width: 0vw;
       height: 0;
       border: 0;
       visibility: hidden;
@@ -142,7 +143,8 @@ height: 100%;
    }
 
    .aventura {
-      width: 0;
+      display: none;
+      width: 0vw;
       height: 0;
       border: 0;
       visibility: hidden;
